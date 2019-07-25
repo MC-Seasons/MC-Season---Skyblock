@@ -1419,6 +1419,435 @@ public class ItemToolInfo {
             return;
         }
 
+        if (items.getType() == Material.DISPENSER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Dispenser");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.NOTE_BLOCK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Noteblock");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.PISTON_STICKY_BASE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Sticky Piston");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.PISTON_BASE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Piston");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.TNT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "TNT");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEVER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Lever");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_PLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Pressure Plate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_PLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Pressure Plate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_TORCH_ON) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Torch");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_TORCH_OFF) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Torch");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_BUTTON) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Button");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.TRAP_DOOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Trapdoor");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_LAMP_OFF) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Lamp");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_LAMP_ON) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Lamp");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.TRIPWIRE_HOOK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Tripwire Hook");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_BUTTON) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Button");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_PLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Weighted Pressure Plate (Light)");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_PLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Weighted Pressure Plate (Heavy)");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DAYLIGHT_DETECTOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Daylight Sensor");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_BLOCK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Block of Redstone");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.HOPPER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Hopper");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DROPPER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Dropper");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_TRAPDOOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Trapdoor");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SPRUCE_FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Spruce Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BIRCH_FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Birch Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.JUNGLE_FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Jungle Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DARK_OAK_FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Dark Oak Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.ACACIA_FENCE_GATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Acacia Fence Gate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOODEN_DOOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Oak Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_DOOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.REDSTONE_COMPARATOR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Comparator");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIODE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Redstone Repeater");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SPRUCE_DOOR_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Spruce Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BIRCH_DOOR_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Birch Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.JUNGLE_DOOR_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Jungle Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.ACACIA_DOOR_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Acacia Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DARK_OAK_DOOR_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(convertToInvisibleString("EMPTY LINE"));
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            lore.add(convertToInvisibleString(player.getName()));
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Dark Oak Door");
+            items.setItemMeta(meta);
+            return;
+        }
+
         if (items.getType() == Material.DOUBLE_PLANT) {
             int itemid = items.getData().getData() % 6;
             String itemtype = "";
