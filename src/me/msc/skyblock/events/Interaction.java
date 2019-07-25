@@ -2,7 +2,6 @@ package me.msc.skyblock.events;
 
 import me.msc.skyblock.Main;
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -20,12 +19,7 @@ public class Interaction implements Listener {
 
         if (e.getClickedInventory() != null) {
             if (e.getClickedInventory().getName().equalsIgnoreCase("Crafting Table")) {
-                if (e.getSlot() == 10 || e.getSlot() == 11 || e.getSlot() == 12 || e.getSlot() == 19 || e.getSlot() == 20 || e.getSlot() == 21 || e.getSlot() == 24 || e.getSlot() == 28 || e.getSlot() == 29 || e.getSlot() == 30) {
-                    Player player = (Player) e.getWhoClicked();
-
-                } else {
-                    e.setCancelled(true);
-                }
+                e.setCancelled(true);
             }
 
             //Skyblock Menu prevent movement.
