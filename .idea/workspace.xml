@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63f357d0-6579-4029-a16c-66df481d466c" name="Default Changelist" comment="Added lots of items, Fixed a few item names">
+      <change afterPath="$PROJECT_DIR$/src/me/msc/skyblock/events/EntityDeath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/msc/skyblock/events/SkeletonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/msc/skyblock/events/ZombieEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/commands/Craft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/commands/Craft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/Interaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/Interaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/WorldInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/WorldInteraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/msc/skyblock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/msc/skyblock/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +34,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="400">
+              <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onDisable#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/ZombieEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/SkeletonEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/EntityDeath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -326,11 +363,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -346,15 +383,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -441,7 +469,6 @@
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerDrop.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/InventoryCloseEvent.java" />
-        <option value="$PROJECT_DIR$/src/me/msc/skyblock/Main.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PickUpEvent.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java" />
@@ -449,6 +476,10 @@
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/misc/ItemToolInfo.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/EntityDeath.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/ZombieEvent.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/SkeletonEvent.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/Main.java" />
       </list>
     </option>
   </component>
@@ -460,6 +491,7 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -473,6 +505,24 @@
             <path>
               <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
               <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564085744037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added lots of items, Fixed a few item names">
+      <created>1564087943628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564087943628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -574,15 +631,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.15565032" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info active="true" id="Favorites" order="7" sideWeight="0.50159746" side_tool="true" visible="true" weight="0.15565032" />
+      <window_info id="Favorites" order="7" sideWeight="0.50159746" side_tool="true" visible="true" weight="0.15565032" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -930,17 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onDisable#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
@@ -1220,8 +1267,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="476">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/SkeletonEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/ZombieEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onDisable#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/EntityDeath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
