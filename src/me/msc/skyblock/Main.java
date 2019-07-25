@@ -73,7 +73,7 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         this.getServer().getPluginManager().registerEvents(new InventoryCloseEvent(), this);
         this.getServer().getPluginManager().registerEvents(new ZombieEvent(), this);
         this.getServer().getPluginManager().registerEvents(new SkeletonEvent(), this);
-        this.getServer().getPluginManager().registerEvents(new EntityDeath(), this);
+        this.getServer().getPluginManager().registerEvents(new EntityDeath(), this); //
 
         //Register Bungee events
         this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
