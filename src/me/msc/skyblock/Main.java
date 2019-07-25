@@ -49,6 +49,8 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         //MySQL Setup
         mysqlSetup();
 
+        //hello
+
         //Commands
         this.getCommand("fly").setExecutor(new CommandFly());
         this.getCommand("playerstate").setExecutor(new FakePlayer());
