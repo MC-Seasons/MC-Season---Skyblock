@@ -1,0 +1,11 @@
+spawn:
+  world: world
+  x: -74
+  y: 143
+  z: -105
+mysql:
+  host: localhost
+  port: 3306
+  username: root
+  password: alexander
+  database: minecraft

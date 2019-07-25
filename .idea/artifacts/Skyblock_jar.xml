@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Skyblock:jar">
+    <output-path>$USER_HOME$/OneDrive/Bureaublad/MC-Seasons/Skyblock/plugins</output-path>
+    <root id="archive" name="Skyblock.jar">
+      <element id="module-output" name="Skyblock" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-1.12.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
