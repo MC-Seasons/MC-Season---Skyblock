@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f357d0-6579-4029-a16c-66df481d466c" name="Default Changelist" comment="" />
+    <list default="true" id="63f357d0-6579-4029-a16c-66df481d466c" name="Default Changelist" comment="Added lots of items, Fixed a few item names">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/commands/Craft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/commands/Craft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/Interaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/Interaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/WorldInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Skyblock/me/msc/skyblock/events/WorldInteraction.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +25,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Skyblock" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="103" column="61" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="61" />
+            <state relative-caret-position="196">
+              <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onDisable#0;class#Main#0" />
@@ -35,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/misc/ItemToolInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="1724" column="58" selection-start-line="1724" selection-start-column="58" selection-end-line="1724" selection-end-column="58" />
+            <state relative-caret-position="3310">
+              <caret line="2012" column="9" lean-forward="true" selection-start-line="2012" selection-start-column="9" selection-end-line="2012" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1174#1182#0" expanded="true" />
@@ -200,10 +208,69 @@
                 <element signature="e#73668#73676#0" expanded="true" />
                 <element signature="e#74127#74135#0" expanded="true" />
                 <element signature="e#74586#74594#0" expanded="true" />
+                <element signature="e#55311#55319#0" expanded="true" />
+                <element signature="e#55641#55649#0" expanded="true" />
+                <element signature="e#55976#55984#0" expanded="true" />
+                <element signature="e#56294#56302#0" expanded="true" />
+                <element signature="e#56631#56639#0" expanded="true" />
+                <element signature="e#56956#56964#0" expanded="true" />
+                <element signature="e#57274#57282#0" expanded="true" />
+                <element signature="e#57583#57591#0" expanded="true" />
+                <element signature="e#57904#57912#0" expanded="true" />
+                <element signature="e#58227#58235#0" expanded="true" />
+                <element signature="e#58558#58566#0" expanded="true" />
+                <element signature="e#58891#58899#0" expanded="true" />
+                <element signature="e#59217#59225#0" expanded="true" />
+                <element signature="e#59548#59556#0" expanded="true" />
+                <element signature="e#59867#59875#0" expanded="true" />
+                <element signature="e#60184#60192#0" expanded="true" />
+                <element signature="e#60512#60520#0" expanded="true" />
+                <element signature="e#60827#60835#0" expanded="true" />
+                <element signature="e#61146#61154#0" expanded="true" />
+                <element signature="e#61490#61498#0" expanded="true" />
+                <element signature="e#61800#61808#0" expanded="true" />
+                <element signature="e#62125#62133#0" expanded="true" />
+                <element signature="e#60838#60846#0" expanded="true" />
+                <element signature="e#61160#61168#0" expanded="true" />
+                <element signature="e#61493#61501#0" expanded="true" />
+                <element signature="e#61832#61840#0" expanded="true" />
+                <element signature="e#62160#62168#0" expanded="true" />
+                <element signature="e#62497#62505#0" expanded="true" />
+                <element signature="e#62824#62832#0" expanded="true" />
+                <element signature="e#63163#63171#0" expanded="true" />
+                <element signature="e#63513#63521#0" expanded="true" />
+                <element signature="e#63857#63865#0" expanded="true" />
+                <element signature="e#57591#57599#0" expanded="true" />
+                <element signature="e#57939#57947#0" expanded="true" />
+                <element signature="e#58285#58293#0" expanded="true" />
+                <element signature="e#58629#58637#0" expanded="true" />
+                <element signature="e#58973#58981#0" expanded="true" />
                 <element signature="e#75043#75051#0" expanded="true" />
                 <element signature="e#75502#75510#0" expanded="true" />
                 <element signature="e#75961#75969#0" expanded="true" />
+                <element signature="e#68562#68570#0" expanded="true" />
+                <element signature="e#68879#68887#0" expanded="true" />
+                <element signature="e#69200#69208#0" expanded="true" />
+                <element signature="e#69519#69527#0" expanded="true" />
+                <element signature="e#69844#69852#0" expanded="true" />
+                <element signature="e#70169#70177#0" expanded="true" />
+                <element signature="e#70502#70510#0" expanded="true" />
+                <element signature="e#70839#70847#0" expanded="true" />
+                <element signature="e#71172#71180#0" expanded="true" />
+                <element signature="e#71501#71509#0" expanded="true" />
+                <element signature="e#71822#71830#0" expanded="true" />
+                <element signature="e#72148#72156#0" expanded="true" />
+                <element signature="e#72481#72489#0" expanded="true" />
+                <element signature="e#72822#72830#0" expanded="true" />
+                <element signature="e#73153#73161#0" expanded="true" />
+                <element signature="e#73478#73486#0" expanded="true" />
+                <element signature="e#73813#73821#0" expanded="true" />
+                <element signature="e#74144#74152#0" expanded="true" />
+                <element signature="e#74469#74477#0" expanded="true" />
                 <element signature="e#59435#59443#0" expanded="true" />
+                <element signature="e#69710#69718#0" expanded="true" />
+                <element signature="e#69434#69442#0" expanded="true" />
+                <element signature="e#70026#70034#0" expanded="true" />
                 <element signature="e#60405#60413#0" expanded="true" />
                 <element signature="e#61119#61127#0" expanded="true" />
                 <element signature="e#62240#62248#0" expanded="true" />
@@ -236,9 +303,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/Craft.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-390">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="68" column="27" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PickUpEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="357">
               <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -264,11 +388,18 @@
       <find>UNCOMMON</find>
       <find>WOOD_STAIRS</find>
       <find>stairs</find>
+      <find>lore.add(convertToInvisibleString(&quot;EMPTY LINE&quot;));</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -304,18 +435,19 @@
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/Hunger.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerSpawn.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/MySQL/MysqlSetterGetter.java" />
-        <option value="$PROJECT_DIR$/src/me/msc/skyblock/commands/Craft.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/CraftInventory.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/SpawnProtection.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerDrop.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java" />
-        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/InventoryCloseEvent.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/Main.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/PickUpEvent.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/commands/Craft.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java" />
+        <option value="$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java" />
         <option value="$PROJECT_DIR$/src/me/msc/skyblock/misc/ItemToolInfo.java" />
       </list>
     </option>
@@ -325,6 +457,9 @@
     <option name="y" value="271" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -341,57 +476,7 @@
             </path>
             <path>
               <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC-Season - Skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skyblock" type="462c0819:PsiDirectoryNode" />
-              <item name="MySQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="AConomy.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Skyblock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="AConomy.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="aconomy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,7 +492,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lobby" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -447,40 +532,110 @@
       <option name="presentableId" value="Default" />
       <updated>1559486396849</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added more items">
+      <created>1564077123631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564077123631</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed empty line and playername from lorelist">
+      <created>1564078253085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564078253085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added lots of items, Fixed a few item names">
+      <created>1564085692200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564085692200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added lots of items, Fixed a few item names">
+      <created>1564085744037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564085744037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.15565032" />
+      <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.15565032" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info active="true" id="Favorites" order="7" sideWeight="0.50159746" side_tool="true" visible="true" weight="0.15565032" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.2829582" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" visible="true" weight="0.2829582" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4946695" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4978678" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053305" side_tool="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49573562" weight="0.2829582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Added more items" />
+    <MESSAGE value="Removed empty line and playername from lorelist" />
+    <MESSAGE value="Added lots of items, Fixed a few item names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lots of items, Fixed a few item names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,13 +658,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -641,7 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MC-Season/Lobby.iml">
+    <entry file="file://$PROJECT_DIR$/../MC-Season/Lobby.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/FakePlayer.java">
@@ -661,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/CommandFly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -685,16 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/Craft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -741,26 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/InventoryCloseEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -788,20 +896,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java">
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/WorldInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PickUpEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/Craft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1151" column="19" selection-start-line="1151" selection-start-column="19" selection-end-line="1151" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="103" column="61" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="61" />
+        <state relative-caret-position="196">
+          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onDisable#0;class#Main#0" />
@@ -809,10 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PickUpEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/PlayerJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        <state relative-caret-position="689">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/misc/ItemToolInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="1724" column="58" selection-start-line="1724" selection-start-column="58" selection-end-line="1724" selection-end-column="58" />
+        <state relative-caret-position="3310">
+          <caret line="2012" column="9" lean-forward="true" selection-start-line="2012" selection-start-column="9" selection-end-line="2012" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1174#1182#0" expanded="true" />
@@ -983,10 +1115,69 @@
             <element signature="e#73668#73676#0" expanded="true" />
             <element signature="e#74127#74135#0" expanded="true" />
             <element signature="e#74586#74594#0" expanded="true" />
+            <element signature="e#55311#55319#0" expanded="true" />
+            <element signature="e#55641#55649#0" expanded="true" />
+            <element signature="e#55976#55984#0" expanded="true" />
+            <element signature="e#56294#56302#0" expanded="true" />
+            <element signature="e#56631#56639#0" expanded="true" />
+            <element signature="e#56956#56964#0" expanded="true" />
+            <element signature="e#57274#57282#0" expanded="true" />
+            <element signature="e#57583#57591#0" expanded="true" />
+            <element signature="e#57904#57912#0" expanded="true" />
+            <element signature="e#58227#58235#0" expanded="true" />
+            <element signature="e#58558#58566#0" expanded="true" />
+            <element signature="e#58891#58899#0" expanded="true" />
+            <element signature="e#59217#59225#0" expanded="true" />
+            <element signature="e#59548#59556#0" expanded="true" />
+            <element signature="e#59867#59875#0" expanded="true" />
+            <element signature="e#60184#60192#0" expanded="true" />
+            <element signature="e#60512#60520#0" expanded="true" />
+            <element signature="e#60827#60835#0" expanded="true" />
+            <element signature="e#61146#61154#0" expanded="true" />
+            <element signature="e#61490#61498#0" expanded="true" />
+            <element signature="e#61800#61808#0" expanded="true" />
+            <element signature="e#62125#62133#0" expanded="true" />
+            <element signature="e#60838#60846#0" expanded="true" />
+            <element signature="e#61160#61168#0" expanded="true" />
+            <element signature="e#61493#61501#0" expanded="true" />
+            <element signature="e#61832#61840#0" expanded="true" />
+            <element signature="e#62160#62168#0" expanded="true" />
+            <element signature="e#62497#62505#0" expanded="true" />
+            <element signature="e#62824#62832#0" expanded="true" />
+            <element signature="e#63163#63171#0" expanded="true" />
+            <element signature="e#63513#63521#0" expanded="true" />
+            <element signature="e#63857#63865#0" expanded="true" />
+            <element signature="e#57591#57599#0" expanded="true" />
+            <element signature="e#57939#57947#0" expanded="true" />
+            <element signature="e#58285#58293#0" expanded="true" />
+            <element signature="e#58629#58637#0" expanded="true" />
+            <element signature="e#58973#58981#0" expanded="true" />
             <element signature="e#75043#75051#0" expanded="true" />
             <element signature="e#75502#75510#0" expanded="true" />
             <element signature="e#75961#75969#0" expanded="true" />
+            <element signature="e#68562#68570#0" expanded="true" />
+            <element signature="e#68879#68887#0" expanded="true" />
+            <element signature="e#69200#69208#0" expanded="true" />
+            <element signature="e#69519#69527#0" expanded="true" />
+            <element signature="e#69844#69852#0" expanded="true" />
+            <element signature="e#70169#70177#0" expanded="true" />
+            <element signature="e#70502#70510#0" expanded="true" />
+            <element signature="e#70839#70847#0" expanded="true" />
+            <element signature="e#71172#71180#0" expanded="true" />
+            <element signature="e#71501#71509#0" expanded="true" />
+            <element signature="e#71822#71830#0" expanded="true" />
+            <element signature="e#72148#72156#0" expanded="true" />
+            <element signature="e#72481#72489#0" expanded="true" />
+            <element signature="e#72822#72830#0" expanded="true" />
+            <element signature="e#73153#73161#0" expanded="true" />
+            <element signature="e#73478#73486#0" expanded="true" />
+            <element signature="e#73813#73821#0" expanded="true" />
+            <element signature="e#74144#74152#0" expanded="true" />
+            <element signature="e#74469#74477#0" expanded="true" />
             <element signature="e#59435#59443#0" expanded="true" />
+            <element signature="e#69710#69718#0" expanded="true" />
+            <element signature="e#69434#69442#0" expanded="true" />
+            <element signature="e#70026#70034#0" expanded="true" />
             <element signature="e#60405#60413#0" expanded="true" />
             <element signature="e#61119#61127#0" expanded="true" />
             <element signature="e#62240#62248#0" expanded="true" />
@@ -1017,6 +1208,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/events/Interaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/msc/skyblock/commands/NewSpawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1028,6 +1239,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1058,7 +1270,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
