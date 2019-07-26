@@ -9,6 +9,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Recipe;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.messaging.PluginMessageListener;
 
@@ -16,6 +17,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.logging.Logger;
 
 public class Main extends JavaPlugin implements PluginMessageListener {
@@ -48,8 +50,6 @@ public class Main extends JavaPlugin implements PluginMessageListener {
 
         //MySQL Setup
         mysqlSetup();
-
-        //hello
 
         //Commands
         this.getCommand("fly").setExecutor(new CommandFly());
@@ -87,6 +87,18 @@ public class Main extends JavaPlugin implements PluginMessageListener {
 
         //Set spawn location
         spawn = new Location(Bukkit.getWorld(world), x, y, z);
+
+//        //Recipe
+//        Iterator<Recipe> it = getServer().recipeIterator();
+//        Recipe recipe;
+//        while(it.hasNext())
+//        {
+//            recipe = it.next();
+//            if (recipe != null)
+//            {
+//                it.remove();
+//            }
+//        }
 
         //Lobby loaded succesfully, let the console know :D
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Skyblock is working!");
