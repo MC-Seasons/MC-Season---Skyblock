@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Other Plugins">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MC-Seasons/Skyblock/plugins/AConomy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MC-Seasons/Skyblock/plugins/BungeePerms-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MC-Seasons/Skyblock/plugins/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MC-Seasons/Skyblock/plugins/askyblock.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
