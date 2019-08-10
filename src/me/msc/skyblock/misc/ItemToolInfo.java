@@ -3736,7 +3736,6 @@ public class ItemToolInfo {
             return;
         }
 
-
         //Item not found, giving it basic data
         List<String> lore = new ArrayList<String>();
         lore.add(ChatColor.GRAY + "》 UNKNOWN 《");
