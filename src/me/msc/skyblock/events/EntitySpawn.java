@@ -25,7 +25,7 @@ public class EntitySpawn implements Listener {
             zombie.getEquipment().setHelmet(new ItemStack(Material.RED_MUSHROOM));
             zombie.getEquipment().setChestplate(new ItemStack(Material.LEATHER_CHESTPLATE));
             zombie.getEquipment().setItemInMainHand(new ItemStack(Material.STONE_SWORD));
-        } else if (e.getEntityType().equals(EntityType.SKELETON)){
+        } else if (e.getEntity() instanceof Skeleton) {
             //Skeleton
             Skeleton skeleton = (Skeleton) e.getEntity();
 
@@ -133,13 +133,20 @@ public class EntitySpawn implements Listener {
             //name above the head
             shulker.setCustomName("Shulker");
             shulker.setCustomNameVisible(true);
-        }else if (e.getEntityType().equals(EntityType.SLIME)){
+        } else if (e.getEntity() instanceof Slime) {
             //Slime
             Slime slime = (Slime) e.getEntity();
 
             //name above the head
             slime.setCustomName("Slime");
             slime.setCustomNameVisible(true);
+        } else if (e.getEntity() instanceof MagmaCube) {
+            //Slime
+            MagmaCube magmaCube = (MagmaCube) e.getEntity();
+
+            //name above the head
+            magmaCube.setCustomName("Magma Cube");
+            magmaCube.setCustomNameVisible(true);
         }else if (e.getEntityType().equals(EntityType.POLAR_BEAR)){
             //Polar Bear
             PolarBear polarBear = (PolarBear) e.getEntity();

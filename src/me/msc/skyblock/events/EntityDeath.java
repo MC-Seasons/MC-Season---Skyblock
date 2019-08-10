@@ -20,7 +20,11 @@ public class EntityDeath implements Listener {
         if (e.getEntity() instanceof Skeleton){
             //Skeleton
             e.getDrops().clear();
-            e.getDrops().add(new ItemStack(Material.BONE));
+            if (((Skeleton) e.getEntity()).getSkeletonType().equals(Skeleton.SkeletonType.WITHER)) {
+                e.getDrops().add(new ItemStack(rand.nextInt(2) == 1 ? Material.COAL : Material.BONE));
+            } else {
+                e.getDrops().add(new ItemStack(Material.BONE));
+            }
 
         } else if (e.getEntity() instanceof Zombie){
             //Zombie
@@ -81,7 +85,11 @@ public class EntityDeath implements Listener {
         }else if (e.getEntity() instanceof Slime){
             //Slime
             e.getDrops().clear();
-            e.getDrops().add(new ItemStack(Material.SLIME_BALL));
+            if (e.getEntity().getType().equals(e.getEntityType().MAGMA_CUBE)) {
+                e.getDrops().add(new ItemStack(Material.MAGMA_CREAM));
+            } else {
+                e.getDrops().add(new ItemStack(Material.SLIME_BALL));
+            }
         }else if (e.getEntity() instanceof PolarBear){
             //Polar Bear
             e.getDrops().clear();
@@ -103,13 +111,6 @@ public class EntityDeath implements Listener {
             e.getDrops().clear();
             ItemStack itemStack = new ItemStack(Material.NETHER_STAR);
             e.getDrops().add(itemStack);
-        }else if (e.getEntity() instanceof WitherSkeleton){
-            //Wither Skeleton
-            e.getDrops().clear();
-            ItemStack skull = new ItemStack(Material.SKULL, 1, (short) 1);
-            ItemStack coal = new ItemStack(Material.COAL);
-
-            e.getDrops().add(rand.nextInt(2)==1 ? skull : coal);
         }else if (e.getEntity() instanceof ZombieHorse){
             //Zombie Horse
             e.getDrops().clear();
@@ -119,11 +120,6 @@ public class EntityDeath implements Listener {
             //Zombie Villager
             e.getDrops().clear();
             ItemStack itemStack = new ItemStack(Material.ROTTEN_FLESH);
-            e.getDrops().add(itemStack);
-        }else if (e.getEntity() instanceof MagmaCube){
-            //MagmaCube
-            e.getDrops().clear();
-            ItemStack itemStack = new ItemStack(Material.MAGMA_CREAM);
             e.getDrops().add(itemStack);
         }else if (e.getEntity() instanceof Silverfish){
             //SilverFish
