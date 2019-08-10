@@ -11,17 +11,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/spigot-1.12.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/spigot-1.12.2.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/BungeePerms-3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -31,7 +20,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/OneDrive/Bureaublad/MC-Seasons/Skyblock/plugins/askyblock.jar!/" />
+          <root url="jar://$MODULE_DIR$/../MC-Seasons/Skyblock/plugins/askyblock.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -40,7 +29,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/OneDrive/Bureaublad/MC-Seasons/Skyblock/plugins/Vault.jar!/" />
+          <root url="jar://$MODULE_DIR$/../MC-Seasons/Skyblock/plugins/Vault.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -49,10 +38,21 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/OneDrive/Bureaublad/MC-Seasons/Skyblock/plugins/AConomy.jar!/" />
+          <root url="jar://$MODULE_DIR$/../MC-Seasons/Skyblock/plugins/AConomy.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../MC-Seasons/Skyblock/server.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../MC-Seasons/Skyblock/server.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

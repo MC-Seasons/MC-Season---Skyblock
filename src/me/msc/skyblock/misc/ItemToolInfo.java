@@ -2030,6 +2030,868 @@ public class ItemToolInfo {
             return;
         }
 
+        if (items.getType() == Material.IRON_SPADE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Shovel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_PICKAXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Pickaxe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_AXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Axe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_SPADE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Shovel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_PICKAXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Pickaxe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_AXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Axe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_SPADE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Shovel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_PICKAXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Pickaxe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_AXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Axe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_SPADE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Shovel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_PICKAXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Pickaxe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_AXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Axe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_SPADE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Shovel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_PICKAXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Pickaxe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_AXE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Axe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FLINT_AND_STEEL) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Flint and Steel");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_HOE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Hoe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_HOE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Hoe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_HOE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Hoe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_HOE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Hoe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_HOE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Hoe");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.COMPASS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Compass");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FISHING_ROD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Fishing Rod");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WATCH) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Clock");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SHEARS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Shears");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEASH) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Lead");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.NAME_TAG) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Name Tag");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BOW) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Bow");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.ARROW) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Arrow");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_SWORD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Sword");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WOOD_SWORD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wooden Sword");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STONE_SWORD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stone Sword");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_SWORD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Sword");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_SWORD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Sword");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEATHER_HELMET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Leather Helmet");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEATHER_CHESTPLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Leather Chestplate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEATHER_LEGGINGS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Leather Leggings");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEATHER_BOOTS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Leather Boots");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CHAINMAIL_HELMET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Chainmail Helmet");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CHAINMAIL_CHESTPLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Chainmail Chestplate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CHAINMAIL_LEGGINGS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Chainmail Leggings");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CHAINMAIL_BOOTS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Chainmail Boots");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_HELMET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Helmet");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_CHESTPLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Chestplate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_LEGGINGS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Leggings");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_BOOTS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Boots");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_HELMET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Helmet");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_CHESTPLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Chestplate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_LEGGINGS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Leggings");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND_BOOTS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond Boots");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_HELMET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Helmet");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_CHESTPLATE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Chestplate");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_LEGGINGS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Leggings");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_BOOTS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Boots");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GHAST_TEAR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Ghast Tear");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GLASS_BOTTLE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Glass Bottle");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FERMENTED_SPIDER_EYE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Fermented Spider Eye");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BLAZE_POWDER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Blaze Powder");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.MAGMA_CREAM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Magma Cream");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BREWING_STAND_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Brewing Stand");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CAULDRON_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Cauldron");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SPECKLED_MELON) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Glistering Melon");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLDEN_CARROT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Golden Carrot");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.RABBIT_FOOT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Rabbit's Foot");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.DIAMOND) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Diamond");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.IRON_INGOT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Iron Ingot");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_INGOT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Gold Ingot");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STICK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Stick");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BOWL) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Bowl");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.STRING) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "String");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FEATHER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Feather");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SULPHUR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Gunpowder");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SEEDS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Seeds");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.WHEAT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Wheat");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.FLINT) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Flint");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.LEATHER) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Leather");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CLAY_BRICK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Brick");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.CLAY_BALL) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Clay");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SUGAR_CANE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Sugar Cane");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.EGG) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Egg");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GLOWSTONE_DUST) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Glowstone Dust");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.SUGAR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Sugar");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.PUMPKIN_SEEDS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Pumpkin Seeds");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.MELON_SEEDS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Melon Seeds");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.BLAZE_ROD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Blaze Rod");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.GOLD_NUGGET) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Gold Nugget");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.NETHER_STALK) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Nether Wart");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.EMERALD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Emerald");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.NETHER_STAR) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.BLUE + "》 RARE 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Nether Star");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.NETHER_BRICK_ITEM) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Nether Brick");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.QUARTZ) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Nether Quartz");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.PRISMARINE_SHARD) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Prismarine Shard");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.PRISMARINE_CRYSTALS) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Prismarine Crystals");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.RABBIT_HIDE) {
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + "Rabbit Hide");
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.COAL) {
+            int itemid = items.getData().getData() % 2;
+            String itemtype = "";
+            if (itemid == 0) {
+                itemtype = "Coal";
+            } else if (itemid == 1) {
+                itemtype = "Charcoal";
+            }
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + itemtype);
+            items.setItemMeta(meta);
+            return;
+        }
+
         if (items.getType() == Material.COOKED_FISH) {
             int itemid = items.getData().getData() % 2;
             String itemtype = "";
@@ -2037,6 +2899,22 @@ public class ItemToolInfo {
                 itemtype = "Cooked Fish";
             } else if (itemid == 1) {
                 itemtype = "Cooked Salamon";
+            }
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + itemtype);
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.POTION) {
+            int itemid = items.getData().getData() % 2;
+            String itemtype = "";
+            if (itemid == 0) {
+                itemtype = "Water Bottle";
+            } else if (itemid == 1) {
+                itemtype = "Water Bottle";
             }
             List<String> lore = new ArrayList<String>();
             lore.add(ChatColor.WHITE + "》 COMMON 《");
@@ -2369,6 +3247,50 @@ public class ItemToolInfo {
                 itemtype = "Red Terracota";
             } else if (itemid == 15) {
                 itemtype = "Black Terracota";
+            }
+            List<String> lore = new ArrayList<String>();
+            lore.add(ChatColor.WHITE + "》 COMMON 《");
+            meta.setLore(lore);
+            meta.setDisplayName(ChatColor.GRAY + itemtype);
+            items.setItemMeta(meta);
+            return;
+        }
+
+        if (items.getType() == Material.INK_SACK) {
+            int itemid = items.getData().getData() % 16;
+            String itemtype = "";
+            if (itemid == 0) {
+                itemtype = "Ink Sac";
+            } else if (itemid == 1) {
+                itemtype = "Rose Red";
+            } else if (itemid == 2) {
+                itemtype = "Cactus Green";
+            } else if (itemid == 3) {
+                itemtype = "Cocoa Beans";
+            } else if (itemid == 4) {
+                itemtype = "Lapis Lazuli";
+            } else if (itemid == 5) {
+                itemtype = "Purple Dye";
+            } else if (itemid == 6) {
+                itemtype = "Cyan Dye";
+            } else if (itemid == 7) {
+                itemtype = "Light Gray Dye";
+            } else if (itemid == 8) {
+                itemtype = "Gray Dye";
+            } else if (itemid == 9) {
+                itemtype = "Pink Dye";
+            } else if (itemid == 10) {
+                itemtype = "Lime Dye";
+            } else if (itemid == 11) {
+                itemtype = "Dandelion Yellow";
+            } else if (itemid == 12) {
+                itemtype = "Light Blue Dye";
+            } else if (itemid == 13) {
+                itemtype = "Magenta Dye";
+            } else if (itemid == 14) {
+                itemtype = "Orange Dye";
+            } else if (itemid == 15) {
+                itemtype = "Bone Meal";
             }
             List<String> lore = new ArrayList<String>();
             lore.add(ChatColor.WHITE + "》 COMMON 《");

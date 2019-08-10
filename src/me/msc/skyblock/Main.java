@@ -4,12 +4,10 @@ import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteStreams;
 import me.msc.skyblock.commands.*;
 import me.msc.skyblock.events.*;
-import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.Recipe;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.messaging.PluginMessageListener;
 
@@ -17,7 +15,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.logging.Logger;
 
 public class Main extends JavaPlugin implements PluginMessageListener {
@@ -31,7 +28,6 @@ public class Main extends JavaPlugin implements PluginMessageListener {
     public static HashMap<String, String> playerprefix = new HashMap<String, String>();
     public static HashMap<String, Integer> playerseasonpoints = new HashMap<String, Integer>();
     public static HashMap<String, Integer> playercoins = new HashMap<String, Integer>();
-    Economy econ = null;
 
     private Connection connection;
     public String host, database, username, password, table;
@@ -43,6 +39,8 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         //Setting the starting variables
         final Logger log = Logger.getLogger("Minecraft");
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "Skyblock is starting up!");
+        Bukkit.getServer().clearRecipes();
+
         instance = this;
         this.pl = pl;
         this.getConfig().options().copyDefaults(true);
@@ -87,18 +85,6 @@ public class Main extends JavaPlugin implements PluginMessageListener {
 
         //Set spawn location
         spawn = new Location(Bukkit.getWorld(world), x, y, z);
-
-//        //Recipe
-//        Iterator<Recipe> it = getServer().recipeIterator();
-//        Recipe recipe;
-//        while(it.hasNext())
-//        {
-//            recipe = it.next();
-//            if (recipe != null)
-//            {
-//                it.remove();
-//            }
-//        }
 
         //Lobby loaded succesfully, let the console know :D
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Skyblock is working!");
