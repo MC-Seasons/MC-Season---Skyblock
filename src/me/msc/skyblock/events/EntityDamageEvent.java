@@ -10,7 +10,7 @@ public class EntityDamageEvent implements Listener {
 
     @EventHandler(priority= EventPriority.HIGHEST)
     public void onEntityDamageByEntity(EntityDamageByEntityEvent e){
-        if (e.getDamager().hasMetadata("lvl2")){
+        if (e.getDamager().hasMetadata("lvl1")){
             e.setDamage(4);
         } else if (e.getDamager().hasMetadata("lvl2")){
             e.setDamage(8);
@@ -20,7 +20,6 @@ public class EntityDamageEvent implements Listener {
             e.setDamage(32);
         }else if (e.getDamager().hasMetadata("lvl5")){
             e.setDamage(64);
-
         }
     }
 }

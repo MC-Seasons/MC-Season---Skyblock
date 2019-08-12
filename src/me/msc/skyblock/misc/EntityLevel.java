@@ -1,9 +1,7 @@
 package me.msc.skyblock.misc;
 
 import me.msc.skyblock.Main;
-import org.bukkit.Bukkit;
 import org.bukkit.event.entity.CreatureSpawnEvent;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.metadata.FixedMetadataValue;
 
 import java.util.Random;
