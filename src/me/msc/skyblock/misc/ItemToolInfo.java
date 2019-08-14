@@ -18,9 +18,7 @@ public class ItemToolInfo {
         return hidden;
     }
 
-    public static void ItemTool(Item i, Player player) {
-        Item item = i;
-        ItemStack items = item.getItemStack();
+    public static void ItemTool(ItemStack items, Player player) {
         ItemMeta meta = items.getItemMeta();
 
         if (items.getType() == Material.LOG) {

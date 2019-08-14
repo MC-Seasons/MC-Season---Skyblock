@@ -31,7 +31,7 @@ public class Main extends JavaPlugin implements PluginMessageListener {
     public static HashMap<String, Integer> playerseasonpoints = new HashMap<String, Integer>();
     public static HashMap<String, Integer> playercoins = new HashMap<String, Integer>();
 
-    public static ArrayList<Location> crateData = new ArrayList<>();
+    public static ArrayList<Location> crateData = new ArrayList<Location>();
 
     private Connection connection;
     public String host, database, username, password, table;

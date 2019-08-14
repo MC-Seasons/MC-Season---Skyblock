@@ -77,7 +77,7 @@ public class CrateEvent implements Listener {
                             Random random = new Random();
 
                             ItemStack[] items = ((Chest) e.getClickedBlock().getState()).getBlockInventory().getContents();
-                            ArrayList<ItemStack> newItems = new ArrayList<>();
+                            ArrayList<ItemStack> newItems = new ArrayList<ItemStack>();
                             for (ItemStack invItem : items){
                                 if (invItem != null){
                                     newItems.add(invItem);
