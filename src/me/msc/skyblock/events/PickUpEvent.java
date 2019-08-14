@@ -18,8 +18,7 @@ public class PickUpEvent implements Listener {
         Item item = e.getItem();
         Player player = (Player) e.getPlayer();
         if (!item.getItemStack().hasItemMeta()) {
-            ItemToolInfo.ItemTool(item, player);
-            Message.sendMessage(player, item.getItemStack().getType().toString());
+            ItemToolInfo.ItemTool(item.getItemStack(), player);
         }
 
     }
