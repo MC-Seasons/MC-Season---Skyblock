@@ -3,6 +3,7 @@ package me.msc.skyblock;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteStreams;
 import me.msc.skyblock.commands.*;
+import me.msc.skyblock.crate.CrateData;
 import me.msc.skyblock.events.*;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -14,6 +15,7 @@ import org.bukkit.plugin.messaging.PluginMessageListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.logging.Logger;
 
@@ -28,6 +30,8 @@ public class Main extends JavaPlugin implements PluginMessageListener {
     public static HashMap<String, String> playerprefix = new HashMap<String, String>();
     public static HashMap<String, Integer> playerseasonpoints = new HashMap<String, Integer>();
     public static HashMap<String, Integer> playercoins = new HashMap<String, Integer>();
+
+    public static ArrayList<Location> crateData = new ArrayList<>();
 
     private Connection connection;
     public String host, database, username, password, table;
@@ -56,6 +60,7 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         this.getCommand("setspawn").setExecutor(new NewSpawn(this.pl));
         this.getCommand("updateprefix").setExecutor(new updatePrefix());
         this.getCommand("craft").setExecutor(new Craft());
+        this.getCommand("setcrate").setExecutor(new SetCrate());
         //Events
         this.getServer().getPluginManager().registerEvents(new Weather(), this);
         this.getServer().getPluginManager().registerEvents(new Interaction(), this);
@@ -72,6 +77,7 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         this.getServer().getPluginManager().registerEvents(new EntitySpawn(), this);
         this.getServer().getPluginManager().registerEvents(new EntityDeath(), this);
         this.getServer().getPluginManager().registerEvents(new EntityDamageEvent(), this);
+        this.getServer().getPluginManager().registerEvents(new CrateEvent(), this);
         //
 
         //Register Bungee events
@@ -88,6 +94,9 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         //Set spawn location
         spawn = new Location(Bukkit.getWorld(world), x, y, z);
 
+        //Crate Data
+        CrateData.loadMetaData();
+
         //Lobby loaded succesfully, let the console know :D
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Skyblock is working!");
     }
@@ -97,6 +106,7 @@ public class Main extends JavaPlugin implements PluginMessageListener {
 
         //Disabling the plugin
         instance = null;
+
 
         //Plugin disabled let the console know :(
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.RED + "Lobby is disabled!");

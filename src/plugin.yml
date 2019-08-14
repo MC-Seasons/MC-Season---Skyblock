@@ -22,3 +22,6 @@ commands:
   craft:
     description: Craft something
     usage: /<command>
+  setcrate:
+    description: Set vote crate
+    usage: /<command>

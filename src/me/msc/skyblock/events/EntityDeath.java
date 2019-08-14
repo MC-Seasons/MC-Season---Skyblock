@@ -1,5 +1,6 @@
 package me.msc.skyblock.events;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
@@ -128,5 +129,22 @@ public class EntityDeath implements Listener {
             //Wolf
             e.getDrops().clear();
         }
+
+
+        //give money on killing
+        if(e.getEntity().getKiller() != null){
+            if(e.getEntity().hasMetadata("lvl1")){
+                Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),"money give " + e.getEntity().getKiller().getDisplayName() + " 2.50");
+            }else if(e.getEntity().hasMetadata("lvl2")){
+                Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),"money give " + e.getEntity().getKiller().getDisplayName() + " 5.00");
+            }else if(e.getEntity().hasMetadata("lvl3")){
+                Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),"money give " + e.getEntity().getKiller().getDisplayName() + " 7.50");
+            }else if(e.getEntity().hasMetadata("lvl4")){
+                Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),"money give " + e.getEntity().getKiller().getDisplayName() + " 10.00");
+            }else if(e.getEntity().hasMetadata("lvl5")){
+                Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),"money give " + e.getEntity().getKiller().getDisplayName() + " 12.50");
+            }
+        }
+
     }
 }
