@@ -42,12 +42,18 @@ public class CrateEvent implements Listener {
                     if (e.getAction() == Action.LEFT_CLICK_BLOCK){
                         MetadataValue metadataValue = new FixedMetadataValue(Main.getInstance(),"VoteCrate");
                         e.getClickedBlock().setMetadata("VoteCrate", metadataValue);
-                        if (!Main.crateData.contains(e.getClickedBlock().getLocation())){
+                        if (Main.crateData == null){
                             CrateData.setValue("Vote Crate", e.getClickedBlock().getLocation());
                             Message.sendMessage(e.getPlayer(), "This crate has been assigned as a Vote Crate.");
                         }else{
-                            Message.sendMessage(e.getPlayer(), "This crate is already assigned.");
+                            if (!Main.crateData.contains(e.getClickedBlock().getLocation())){
+                                CrateData.setValue("Vote Crate", e.getClickedBlock().getLocation());
+                                Message.sendMessage(e.getPlayer(), "This crate has been assigned as a Vote Crate.");
+                            }else{
+                                Message.sendMessage(e.getPlayer(), "This crate is already assigned.");
+                            }
                         }
+
 
 
                         e.setCancelled(true);
