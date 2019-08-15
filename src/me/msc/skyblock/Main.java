@@ -31,7 +31,10 @@ public class Main extends JavaPlugin implements PluginMessageListener {
     public static HashMap<String, Integer> playerseasonpoints = new HashMap<String, Integer>();
     public static HashMap<String, Integer> playercoins = new HashMap<String, Integer>();
 
-    public static ArrayList<Location> crateData = new ArrayList<Location>();
+    //Crate Data
+    public static ArrayList<Location> voteCrateData = new ArrayList<Location>();
+    public static ArrayList<Location> legendCrateData = new ArrayList<Location>();
+    public static ArrayList<Location> rareCrateData = new ArrayList<Location>();
 
     private Connection connection;
     public String host, database, username, password, table;
@@ -60,7 +63,8 @@ public class Main extends JavaPlugin implements PluginMessageListener {
         this.getCommand("setspawn").setExecutor(new NewSpawn(this.pl));
         this.getCommand("updateprefix").setExecutor(new updatePrefix());
         this.getCommand("craft").setExecutor(new Craft());
-        this.getCommand("setcrate").setExecutor(new SetCrate());
+        this.getCommand("crate").setExecutor(new Crate());
+        this.getCommand("key").setExecutor(new KeyCmd());
         //Events
         this.getServer().getPluginManager().registerEvents(new Weather(), this);
         this.getServer().getPluginManager().registerEvents(new Interaction(), this);

@@ -22,6 +22,9 @@ commands:
   craft:
     description: Craft something
     usage: /<command>
-  setcrate:
-    description: Set vote crate
-    usage: /<command>
+  crate:
+    description: Add / remove / modify vote crate
+    usage: /<command> <modify | create> [Crate Type]
+  key:
+    description: Get a key for Crates
+    usage: /<command> <player | crate> [crate] [amount]

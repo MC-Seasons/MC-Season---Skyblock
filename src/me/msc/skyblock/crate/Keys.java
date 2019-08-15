@@ -10,7 +10,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Key {
+public class Keys {
 
     private static ItemStack itemStack;
     private static ItemMeta itemMeta;
