@@ -47,6 +47,7 @@ public class CrateEvent implements Listener {
                         if (e.getAction() == Action.RIGHT_CLICK_BLOCK) {
 
 
+
                             if(item.getItemMeta().getDisplayName().equals("Vote Crate Manager")){
 
                                 //vote crate
@@ -137,6 +138,13 @@ public class CrateEvent implements Listener {
                 //Using Crate
                 if (e.getClickedBlock().hasMetadata("VoteCrate")){
                     if (item.getType().equals(Material.BLAZE_ROD) && item.getItemMeta().getDisplayName() != null && item.getItemMeta().getDisplayName().equals("Vote Key")){
+
+                        if (e.getPlayer().getInventory().firstEmpty() == -1){
+                            Message.sendMessage(e.getPlayer(), "Your inventory is full.");
+                            e.setCancelled(true);
+                            return;
+                        }
+
                         //Remove key on use
                         item.setAmount(item.getAmount() - 1);
 
@@ -154,7 +162,7 @@ public class CrateEvent implements Listener {
                         //randomly pick an item
                         ItemStack win = newItems.get(random.nextInt(newItems.size()));
 
-                        Message.sendMessage(e.getPlayer(), "Congratulations! You won " + win.getAmount() + " " + win.getType().name() + " from the vote crate.");
+                        Message.sendMessage(e.getPlayer(), "Congratulations! You won " + win.getAmount() + " " + win.getType().name() + " from the Vote crate.");
 
                         //give item to player
                         ItemToolInfo.ItemTool(win, e.getPlayer());
@@ -164,12 +172,18 @@ public class CrateEvent implements Listener {
                     }
                     else{
                         //if player is not holding key
-                        Message.sendMessage(e.getPlayer(),"Use a vote key to get prizes.");
+                        Message.sendMessage(e.getPlayer(),"Use a Vote key to get prizes.");
                         e.setCancelled(true);
                     }
                     return;
                 }else if (e.getClickedBlock().hasMetadata("LegendCrate")){
                     if (item.getType().equals(Material.BLAZE_ROD) && item.getItemMeta().getDisplayName() != null && item.getItemMeta().getDisplayName().equals("Legendary Key")){
+                        if (e.getPlayer().getInventory().firstEmpty() == -1){
+                            Message.sendMessage(e.getPlayer(), "Your inventory is full.");
+                            e.setCancelled(true);
+                            return;
+                        }
+
                         //Remove key on use
                         item.setAmount(item.getAmount() - 1);
 
@@ -202,6 +216,12 @@ public class CrateEvent implements Listener {
                     }
                 }else if (e.getClickedBlock().hasMetadata("RareCrate")){
                     if (item.getType().equals(Material.BLAZE_ROD) && item.getItemMeta().getDisplayName() != null && item.getItemMeta().getDisplayName().equals("Rare Key")){
+                        if (e.getPlayer().getInventory().firstEmpty() == -1){
+                            Message.sendMessage(e.getPlayer(), "Your inventory is full.");
+                            e.setCancelled(true);
+                            return;
+                        }
+
                         //Remove key on use
                         item.setAmount(item.getAmount() - 1);
 
